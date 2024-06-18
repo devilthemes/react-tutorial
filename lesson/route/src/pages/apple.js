@@ -1,0 +1,1 @@
+export const Apple = () => <h1>Apple Page</h1>
