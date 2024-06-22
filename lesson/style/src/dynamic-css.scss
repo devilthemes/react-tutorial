@@ -1,0 +1,19 @@
+
+$hoverColor: #c5d816;
+$h2Color:#dd0add;
+div.dynamic{
+    font-weight:bold;
+    color:pink;
+
+    h2{
+        color:$h2Color;
+        &:hover{
+            color:$hoverColor;
+        }
+    }
+   
+}
+h3{
+    text-decoration: dotted;
+}
+

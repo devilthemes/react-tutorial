@@ -1,0 +1,11 @@
+
+.h3{
+    font-weight: 16px;
+    text-transform:lowercase;
+    font-family: arial;
+    text-decoration:line-through;
+}
+.block {
+    border:solid 2px red;
+    border-radius:10px;
+}
