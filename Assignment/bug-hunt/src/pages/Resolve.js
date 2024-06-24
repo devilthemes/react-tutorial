@@ -1,0 +1,1 @@
+export const Resolve = () => <h1>Resolve</h1>
