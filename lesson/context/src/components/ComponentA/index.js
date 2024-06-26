@@ -1,8 +1,8 @@
 import { ComponentB } from "../ComponentB"
-import { SettingConsumer } from "../../contexts/settingContext"
+import { SettingContext } from "../../contexts/settingContext"
 import { useContext } from "react"
 export const ComponentA = ()=>{
-    const {state,setState} = useContext(SettingConsumer);
+    const {state,setState} = useContext(SettingContext);
     console.log("Component A" ,state);
     const setRed = () =>{
         console.log("set Red");

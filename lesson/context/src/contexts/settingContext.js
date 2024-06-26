@@ -5,6 +5,6 @@ const SettingContext = createContext();
 // Data Provider
 const SettingProvider = SettingContext.Provider;
 // Data Consumer
-const SettingConsumer = SettingContext.Consumer;
+// const SettingConsumer = SettingContext.Consumer;
 
-export {SettingProvider,SettingConsumer};
+export {SettingProvider,SettingContext};
